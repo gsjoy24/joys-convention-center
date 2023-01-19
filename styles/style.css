@@ -1,0 +1,62 @@
+/* ! importing poppins font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/* ! all reset and reusable styles */
+* {
+	font-family: 'Poppins', sans-serif;
+}
+section {
+	margin-top: 80px;
+}
+.navbar-toggler {
+	border: none;
+}
+.navbar-toggler:focus {
+	box-shadow: none; /* making disable shadow from bootstrap */
+}
+/* ! banner section */
+.banner {
+	min-height: 92vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 5rem;
+}
+.banner-1 {
+	background-image: url(../images/banner-1.png);
+}
+.banner-2,
+.banner-3,
+.banner-4 {
+	background-color: rgba(0, 0, 0, 0.535);
+	background-blend-mode: overlay;
+}
+.banner-2 {
+	background-image: url(../images/banner-2.jpg);
+}
+.banner-3 {
+	background-image: url(../images/banner-3.jpg);
+}
+.banner-4 {
+	background-image: url(../images/banner-4.jpg);
+}
+/* ! album section */
+.fa-arrow-right {
+	margin-left: 0.5rem;
+}
+.toast {
+	top: -3.75rem;
+	right: 0px;
+	border: none;
+	border-left: 0.5rem solid;
+	width: 12rem;
+	font-size: 0.6rem;
+}
+.toast img {
+	width: 1rem;
+}
+@media only screen and (max-width: 576px) {
+	.banner {
+		background-position: -420px 0;
+	}
+}
