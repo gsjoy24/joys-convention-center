@@ -94,12 +94,29 @@ section {
 }
 .badge {
 	right: 20px;
+	font-size: 1rem;
 }
 .card.hot {
 	bottom: 40px;
+	background-image: url(../images/icons/watermark.svg);
+	background-blend-mode: overlay;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top right;
 }
+/* ! question section */
+
 .question-img {
 	width: 90%;
+}
+/* ! footer section */
+footer {
+	background-color: #000;
+	color: #d9dbe1;
+}
+footer img {
+	width: 150px;
+	display: block;
 }
 @media only screen and (max-width: 576px) {
 	.banner {
