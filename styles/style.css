@@ -122,12 +122,12 @@ footer img {
 	.banner {
 		background-position: -420px 0;
 	}
+	footer {
+		text-align: center;
+	}
 }
 @media only screen and (max-width: 992px) {
 	.card.hot {
 		bottom: 0px;
-	}
-	footer {
-		text-align: center;
 	}
 }
