@@ -55,8 +55,45 @@ section {
 .toast img {
 	width: 1rem;
 }
+/* ! price section */
+.gj-card-title {
+	color: #231d4f;
+}
+.gj-card-description {
+	color: #848199;
+	font-size: 0.8rem;
+}
+.gj-card-check {
+	color: #231d4f;
+	background: #84819943;
+}
+.gj-hot-card-description {
+	font-size: 0.8rem;
+}
+.gj-hot-card-check {
+	background-color: #edecf428;
+}
+.gj-card-btn {
+	background-color: #f496d25d;
+}
+.gj-card-btn:hover {
+	background-color: #f496d2;
+	color: #fff !important;
+}
+.badge {
+	right: 20px;
+}
+.card.hot {
+	bottom: 40px;
+}
+
 @media only screen and (max-width: 576px) {
 	.banner {
 		background-position: -420px 0;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.card.hot {
+		bottom: 0px;
 	}
 }
