@@ -5,6 +5,9 @@
 * {
 	font-family: 'Poppins', sans-serif;
 }
+p {
+	font-size: 14px;
+}
 section {
 	margin-top: 80px;
 }
@@ -92,7 +95,7 @@ section {
 		background-position: -420px 0;
 	}
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
 	.card.hot {
 		bottom: 0px;
 	}
