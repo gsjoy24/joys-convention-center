@@ -127,4 +127,7 @@ footer img {
 	.card.hot {
 		bottom: 0px;
 	}
+	footer {
+		text-align: center;
+	}
 }
